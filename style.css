@@ -1,0 +1,11 @@
+.chamada{
+    background-color: antiquewhite;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+body{
+    background-color: black;
+    margin: 0px;
+}
