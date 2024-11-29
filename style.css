@@ -15,11 +15,28 @@ body{
 header{
     font-size: 35px;
     color:rgb(185, 32, 32);
-    border-bottom: 3px solid pink
+    border-bottom: 3px solid pink;
     padding: 20px;
 }
 h1{
     font-size: 40px;
 }
-.chamada-texto
-margin-right: 5%;
+.chamada-texto{
+     margin-right: 5%;
+}
+.categoria {
+
+}
+.categoria-videos{
+display: flex;
+overflow-x: auto;
+gap: 10px
+}
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border:3px solid purple;
+}
